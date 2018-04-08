@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Zipcode delimiter is changed as passed 1`] = `
+<TextInput
+  allowFontScaling={true}
+  delimiter=" "
+  keyboardType="numeric"
+  maxLength={8}
+  onChangeText={[Function]}
+  onKeyPress={[Function]}
+  placeholder="XXX-XXXX"
+  value="000 0000"
+/>
+`;
+
+exports[`Zipcode placeholder is changed as passed 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="numeric"
+  maxLength={8}
+  onChangeText={[Function]}
+  onKeyPress={[Function]}
+  placeholder="000-0000"
+  value="000-0000"
+/>
+`;
+
+exports[`Zipcode renders correctly 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="numeric"
+  maxLength={8}
+  onChangeText={[Function]}
+  onKeyPress={[Function]}
+  placeholder="XXX-XXXX"
+  value="000-0000"
+/>
+`;

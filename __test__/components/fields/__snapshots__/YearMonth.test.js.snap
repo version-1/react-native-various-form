@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YearMonth LongMonthYear 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View>
+    <TextInput
+      allowFontScaling={true}
+      formatType="longMonthYear"
+      keyboardType="numeric"
+      maxLength={2}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      placeholder="MM"
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+      value="10"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 10,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "lightgray",
+          },
+          undefined,
+        ]
+      }
+    >
+      /
+    </Text>
+  </View>
+  <View>
+    <TextInput
+      allowFontScaling={true}
+      formatType="longMonthYear"
+      keyboardType="numeric"
+      maxLength={4}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      placeholder="YYYY"
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+      value="2018"
+    />
+  </View>
+</View>
+`;
+
+exports[`YearMonth LongYearMonth 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View>
+    <TextInput
+      allowFontScaling={true}
+      formatType="longYearMonth"
+      keyboardType="numeric"
+      maxLength={4}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      placeholder="YYYY"
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+      value="2018"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 10,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "lightgray",
+          },
+          undefined,
+        ]
+      }
+    >
+      /
+    </Text>
+  </View>
+  <View>
+    <TextInput
+      allowFontScaling={true}
+      formatType="longYearMonth"
+      keyboardType="numeric"
+      maxLength={2}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      placeholder="MM"
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+      value="10"
+    />
+  </View>
+</View>
+`;
+
+exports[`YearMonth ShortMonthYear 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View>
+    <TextInput
+      allowFontScaling={true}
+      formatType="shortMonthYear"
+      keyboardType="numeric"
+      maxLength={2}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      placeholder="MM"
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+      value="10"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 10,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "lightgray",
+          },
+          undefined,
+        ]
+      }
+    >
+      /
+    </Text>
+  </View>
+  <View>
+    <TextInput
+      allowFontScaling={true}
+      formatType="shortMonthYear"
+      keyboardType="numeric"
+      maxLength={2}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      placeholder="YY"
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+      value="18"
+    />
+  </View>
+</View>
+`;
+
+exports[`YearMonth ShortYearMonth 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View>
+    <TextInput
+      allowFontScaling={true}
+      formatType="shortYearMonth"
+      keyboardType="numeric"
+      maxLength={2}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      placeholder="YY"
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+      value="18"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 10,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "lightgray",
+          },
+          undefined,
+        ]
+      }
+    >
+      /
+    </Text>
+  </View>
+  <View>
+    <TextInput
+      allowFontScaling={true}
+      formatType="shortYearMonth"
+      keyboardType="numeric"
+      maxLength={2}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      placeholder="MM"
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+      value="10"
+    />
+  </View>
+</View>
+`;
+
+exports[`YearMonth default 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View>
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="numeric"
+      maxLength={2}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      placeholder="MM"
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+      value="10"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 10,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "lightgray",
+          },
+          undefined,
+        ]
+      }
+    >
+      /
+    </Text>
+  </View>
+  <View>
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="numeric"
+      maxLength={4}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      placeholder="YYYY"
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+      value="2018"
+    />
+  </View>
+</View>
+`;

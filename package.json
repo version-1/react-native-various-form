@@ -1,0 +1,38 @@
+{
+  "name": "react-native-various-form",
+  "version": "0.0.1",
+  "author": "version-1",
+  "description": "React Native Various Form provides some components for Input Form.You can implement Field, Form and Validator easily on React Native.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://version-1@github.com/version-1/react-native-various-form.git"
+  },
+  "license": "ISC",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "./node_modules/react-native/scripts/packager.sh start --reset-cache",
+    "example:ios": "react-native run-ios --project-path example/ios"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/version-1/react-native-various-form/issues"
+  },
+  "homepage": "https://github.com/version-1/react-native-various-form#readme",
+  "devDependencies": {
+    "babel-jest": "^22.4.3",
+    "babel-preset-react-native": "^4.0.0",
+    "jest": "^23.0.0",
+    "metro-bundler": "^0.22.1",
+    "react": "16.3.1",
+    "react-native": "0.55.2",
+    "react-navigation": "^1.5.11",
+    "react-test-renderer": "^16.3.2"
+  }
+}
