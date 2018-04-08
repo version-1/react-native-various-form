@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCardNumber delimiter is changed as passed 1`] = `
+<TextInput
+  allowFontScaling={true}
+  delimiter=" "
+  keyboardType="numeric"
+  maxLength={19}
+  onChangeText={[Function]}
+  onKeyPress={[Function]}
+  placeholder="XXXX XXXX XXXX XXXX"
+  value="0000 0000 0000 0000"
+/>
+`;
+
+exports[`CreditCardNumber placeholder is changed as passed 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="numeric"
+  maxLength={19}
+  onChangeText={[Function]}
+  onKeyPress={[Function]}
+  placeholder="0000-0000-0000-0000"
+  value="0000-0000-0000-0000"
+/>
+`;
+
+exports[`CreditCardNumber renders correctly 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="numeric"
+  maxLength={19}
+  onChangeText={[Function]}
+  onKeyPress={[Function]}
+  placeholder="XXXX-XXXX-XXXX-XXXX"
+/>
+`;

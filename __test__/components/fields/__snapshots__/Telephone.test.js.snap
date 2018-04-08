@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Telephone delimiter is changed as passed 1`] = `
+<TextInput
+  allowFontScaling={true}
+  delimiter=" "
+  keyboardType="phone-pad"
+  maxLength={13}
+  onChangeText={[Function]}
+  onKeyPress={[Function]}
+  placeholder="000-0000-0000"
+  value="000 0000 0000"
+/>
+`;
+
+exports[`Telephone placeholder is changed as passed 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="phone-pad"
+  maxLength={13}
+  onChangeText={[Function]}
+  onKeyPress={[Function]}
+  placeholder="000-0000-0000"
+  value="000-0000-0000"
+/>
+`;
+
+exports[`Telephone renders correctly 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="phone-pad"
+  maxLength={13}
+  onChangeText={[Function]}
+  onKeyPress={[Function]}
+  placeholder="000-0000-0000"
+  value="000-0000-0000"
+/>
+`;
