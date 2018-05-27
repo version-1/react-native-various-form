@@ -1,5 +1,7 @@
 # react-native-various-form
 
+[![Build Status](https://travis-ci.org/version-1/react-native-various-form.svg?branch=master)](https://travis-ci.org/version-1/react-native-various-form)
+
 React Native Various Form provides some components for Input Form.
 You can implement Field, Form and Validator easily on React Native.
 
